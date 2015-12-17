@@ -7,6 +7,8 @@
   This allows you to get deep nested variables.
 
 ### Example use;
+@import 'init.function.var';
+
 <pre>
   $map: (
     brand: (
