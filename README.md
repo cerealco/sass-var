@@ -3,8 +3,8 @@
 `var()`
 
 ### Description;
-  var() is an extension of map-get()
-  This allows you to get deep variables.
+  `var()` is an extension of [`map_get()`](http://sass-lang.com/documentation/Sass/Script/Functions.html#map_get-instance_method).
+  This allows you to get deep nested variables.
 
 ### Example use;
 <pre>
