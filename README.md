@@ -1,12 +1,13 @@
 # sass-var
 
-var()
+`var()`
 
 ### Description;
   var() is an extension of map-get()
   This allows you to get deep variables.
 
 ### Example use;
+<pre>
   $map: (
     brand: (
       primary: #000000
@@ -16,3 +17,4 @@ var()
   div {
     color: var($map, brand primary);
   }
+</pre>
