@@ -8,7 +8,7 @@
 
 ### Example use;
 <pre>
-  @import 'init.function.var';
+  @import 'function.var';
   
   $map: (
     brand: (
