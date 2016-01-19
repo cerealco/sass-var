@@ -1,9 +1,9 @@
-# sass-var
+# sass-get
 
-`var()`
+`get()`
 
 ### Description;
-  `var()` is an extension of [`map-get()`](http://sass-lang.com/documentation/Sass/Script/Functions.html#map_get-instance_method). This allows you to get deep nested variables.
+  `get()` is an extension of [`map-get()`](http://sass-lang.com/documentation/Sass/Script/Functions.html#map_get-instance_method). This allows you to get deep nested variables.
 
 For more information please read this [article](http://cereal.co/deep-nested-variables-in-sass/)
 
@@ -18,6 +18,6 @@ For more information please read this [article](http://cereal.co/deep-nested-var
   );
 
   div {
-    color: var($map, brand primary);
+    color: get($map, brand primary);
   }
 </pre>
