@@ -1,12 +1,12 @@
 /* ==========================================================================
   
-  var()
+  # get()
 
-  Description;
-    var() is an extension of map_get()
+  ## Description;
+    get() is an extension of map_get()
     This allows you to get deep variables.
  
-  Example use;
+  ## Example use;
     $map: (
       brand: (
         primary: #000000
@@ -14,12 +14,12 @@
     );
 
     div {
-      color: var($map, brand primary);
+      color: get($map, brand primary);
     }
 
    ========================================================================== */
 
-@function var($map, $keys: null) {
+@function get($map, $keys: null) {
   @if ($keys != null){
     @each $key in $keys {
       $map: map-get($map, $key);
